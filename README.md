@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://res.cloudinary.com/lesley-z/image/upload/v1660363616/Projects/Mythic_Market.svg" alt="mythic market text" width="50%"/>
 <h1 align="center">on Solana Pay</h1>
-<p align="center">I made this store by completeing the buildspace solana pay starter project. Check it out here!</p>
+<p align="center">I made this store by completeing the buildspace solana pay starter project. Check it out <a href="https://mythic-market-solana-pay.vercel.app">here!</a></p>
 </div>
 
 <hr> 
