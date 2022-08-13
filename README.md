@@ -1,5 +1,6 @@
 <div align="center">
-<img src="/public/mm3.png" alt="mythic market text" width="50%"/>
+<img src="https://user-images.githubusercontent.com/71146587/184516861-ca20211c-1721-4e0d-a0cd-34047f8b9c2e.png" alt="mythic market" width="50%"/>
+
 <h1 align="center">on Solana Pay</h1>
 <p align="center">I made this store by completeing the buildspace solana pay starter project. Check it out <a href="https://mythic-market-solana-pay.vercel.app"><b>here!</b></a></p>
 </div>
@@ -9,8 +10,8 @@
 <h3>Screenshot</h3>
 
 <div>
-<img src="/public/github-profile.jpg" alt="screenshot" width="33%">
-<img src="/public/demo.jpg" alt="screenshot" width="66%">
+<img src="/public/github-profile.jpg" alt="screenshot" width="50%">
+<img src="/public/demo.jpg" alt="screenshot" width="50%">
 </div>
 
 <hr>
