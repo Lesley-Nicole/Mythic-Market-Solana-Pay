@@ -1,8 +1,8 @@
 {
   "name": "@solana/wallet-adapter-nextjs-starter",
   "version": "0.8.2",
-  "author": "Solana Maintainers <maintainers@solana.foundation>",
-  "repository": "https://github.com/solana-labs/wallet-adapter",
+  "author": "Lesley-Nicole <buildspace.so/@Lesley>",
+  "repository": "https://github.com/Lesley-Nicole/Mythic-Market-Solana-Pay",
   "license": "Apache-2.0",
   "files": [
     "src",
@@ -23,6 +23,7 @@
   "dependencies": {
     "@solana/pay": "^0.2.0",
     "@solana/wallet-adapter-base": "^0.9.4",
+    "@solana/wallet-adapter-brave": "^0.1.5",
     "@solana/wallet-adapter-react": "^0.15.3",
     "@solana/wallet-adapter-react-ui": "^0.9.5",
     "@solana/wallet-adapter-wallets": "^0.16.0",

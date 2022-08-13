@@ -1,35 +1,85 @@
 .App {
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background-image: url('https://res.cloudinary.com/lesley-z/image/upload/v1659782564/Projects/rrrainbow_mxblyn.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:#060133;
   text-align: center;
   overflow: hidden;
+  width: 100%;
+  margin: auto;
 }
-
+/* [#ffccf7, #ff99ef, #ff66e7, #ff00d7, #cc00ac, #990081, #660056] color pallette*/
 .container {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 30px 0 30px;
-  color: white;
+  padding: 0 15px 0 15px;
+  color: #5c0091;
   position: relative;
+  background: transparent;
+  margin: auto;
 }
+/* border-radius: 55px;
+background: linear-gradient(145deg, #e100c3, #ff00e8);
+box-shadow:  21px 21px 42px #870075,
+             -21px -21px 42px #ff00ff; */
+
+
+             .container:before {
+              content: "";
+              z-index: -1;
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              background: linear-gradient(-45deg, #aefb2a 0%, #57ebde 105% );
+              transform: translate3d(0px, 20px, 0) scale(0.95);
+              filter: blur(20px);
+              opacity: var(0.56);
+              transition: opacity 0.3s;
+              border-radius: inherit;
+          }
+          
+          /* 
+          * Prevents issues when the parent creates a 
+          * stacking context. (For example, using the transform
+          * property )
+          */
+          .container::after {
+              content: "";
+              z-index: -1;
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              background: inherit;
+              border-radius: inherit;
+          }
+                  
 
 .authed-container {
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 20px;
 }
 
 .header {
   margin: 0;
   font-size: 50px;
   font-weight: bold;
+  text-shadow: 3px 3px 3px rgb(2, 233, 233);
 }
 
 .sub-text {
   font-size: 25px;
+  color: #5c0091;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(2, 233, 233);
 }
 
 .gradient-text {
@@ -43,9 +93,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.2); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: rgb(119, 119, 119);
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
 .cta-button {
   height: 45px;
   border: 0;
@@ -92,7 +158,19 @@ button:disabled {
   width: 100%;
   bottom: 0;
   left: 0;
-  padding-bottom: 20px;
+  padding-bottom: 27px;
+}
+
+.footer-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0 px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 5px;
 }
 
 .twitter-logo {
@@ -100,10 +178,16 @@ button:disabled {
   height: 35px;
 }
 
+.builder-badge {
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+}
+
 .footer-text {
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  color: rgb(250, 223, 68);
 }
 
 .connected-container input[type='text'] {
@@ -124,19 +208,21 @@ button:disabled {
 }
 
 .buy-button {
-  border: none;
-  background-color: #4664ff;
-  color: #fff;
+  border: 1px solid lime;
+  background-color: rgb(108, 253, 108);
+  box-shadow: 2px 2px 2px gray;
+  color: black;
   font-size: 16px;
-  border-radius: 3px;
+  font-weight: bold;
+  border-radius: 4px;
   padding: 8px 16px;
   cursor: pointer;
 }
 
 .download-button {
   border: none;
-  background-color: #4664ff;
-  color: #fff;
+  background-color: #fdde78;
+  color: black;
   font-size: 16px;
   border-radius: 3px;
   padding: 8px 16px;
@@ -165,7 +251,7 @@ button:disabled {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 /* KeyFrames */
 @-webkit-keyframes gradient-animation {

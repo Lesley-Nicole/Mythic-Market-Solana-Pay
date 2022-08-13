@@ -4,18 +4,19 @@
   justify-content: space-evenly;
   align-items: center;
   max-width: 320px;
-  height: 400px;
+  height: 390px;
   background-color: #141414;
-  margin: 15px;
-  padding: 20px;
-  border-radius: 16px;
-  border: 1px solid rgb(104, 104, 104);
-  /* background: url('../public/blur-bg.png') */
+  margin: 5px;
+  padding: 5px;
+  border-radius: 55px;
+  /*background: linear-gradient(145deg, #2b1102, #57534f);*/
+  box-shadow: 21px 21px 42px #3b3b3b, -21px -21px -42px #696969;
+  border: 1px solid rgb(255, 221, 68);
+  background: url('../public/blur-bg.png')
 }
 
 .product_image{
   width: 140px;
-  background-color: #141414;
 }
 
 .product_details{
@@ -29,16 +30,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .product_title{
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 12px;
+  color: rgb(0, 12, 51);
 }
 .product_description{
-  color:rgb(186, 184, 184);
+  color:black;
 }
 
 .product_action{
@@ -51,4 +53,6 @@
 
 .product_price{
   font-size: 1.3em;
+  color: navy;
+  font-weight: bold;
 }
