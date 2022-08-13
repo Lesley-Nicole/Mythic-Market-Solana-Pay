@@ -45,4 +45,6 @@ Have some questions make sure you head over to your [buildspace Dashboard](https
 Apache 2.0
 
 ### Author
-<a align="center" "href="https://buildspace.so/@Lesley"><img src="https://res.cloudinary.com/lesley-z/image/upload/v1655718944/Branding/babylonica_cwkmg3.svg" alt="Lesley-Nicole" width="33%"/></a>
+<div align="center">
+<a "href="https://buildspace.so/@Lesley"><img src="https://res.cloudinary.com/lesley-z/image/upload/v1655718944/Branding/babylonica_cwkmg3.svg" alt="Lesley-Nicole" width="33%"/></a>
+</div>
