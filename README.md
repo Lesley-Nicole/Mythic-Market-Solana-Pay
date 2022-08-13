@@ -7,11 +7,11 @@
 
 <hr> 
 
-<h3>Screenshot</h3>
+<h3>Screenshots</h3>
 
-<div>
-<img src="/public/github-profile.jpg" alt="screenshot" width="40%">
-<img src="/public/demo.jpg" alt="screenshot" width="60%">
+<div align="center">
+<img src="/public/github-profile.jpg" alt="screenshot" width="33%">
+<img src="/public/demo.jpg" alt="screenshot" width="50%">
 </div>
 
 <hr>
