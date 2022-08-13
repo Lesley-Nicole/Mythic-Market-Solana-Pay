@@ -1,14 +1,14 @@
-<div style="center">
-<img src="/public/mm.png" alt="mythic market text" width="50%"/>
-<h1 style="center">on Solana Pay</h1>
-<p style="center">I made this store by completeing the buildspace solana pay starter project. Check it out here!</p>
+<div align="center">
+<img src="https://res.cloudinary.com/lesley-z/image/upload/v1660363616/Projects/Mythic_Market.svg" alt="mythic market text" width="50%"/>
+<h1 align="center">on Solana Pay</h1>
+<p align="center">I made this store by completeing the buildspace solana pay starter project. Check it out here!</p>
 </div>
 
 <hr> 
 
 <h3>Screenshot</h3>
 
-<div style="center"><img src="/public/demo.jpg" alt="screenshot" width="66%"></div>
+<div align="center"><img src="/public/demo.jpg" alt="screenshot" width="66%"></div>
 
 <hr>
 
@@ -45,4 +45,4 @@ Have some questions make sure you head over to your [buildspace Dashboard](https
 Apache 2.0
 
 ### Author
-<a href="https://buildspace.so/@Lesley"><img src="https://res.cloudinary.com/lesley-z/image/upload/v1655718944/Branding/babylonica_cwkmg3.svg" alt="Lesley-Nicole" width="33%"/></a>
+<a align="center" "href="https://buildspace.so/@Lesley"><img src="https://res.cloudinary.com/lesley-z/image/upload/v1655718944/Branding/babylonica_cwkmg3.svg" alt="Lesley-Nicole" width="33%"/></a>
