@@ -10,8 +10,8 @@
 <h3>Screenshot</h3>
 
 <div>
-<img src="/public/github-profile.jpg" alt="screenshot" width="50%">
-<img src="/public/demo.jpg" alt="screenshot" width="50%">
+<img src="/public/github-profile.jpg" alt="screenshot" width="40%">
+<img src="/public/demo.jpg" alt="screenshot" width="60%">
 </div>
 
 <hr>
