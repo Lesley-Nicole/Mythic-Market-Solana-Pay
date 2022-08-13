@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Medusa Gif",
+        "price": "0.03",
+        "description": "Get this mythical muse for only $0.03! Includes 2 frames: Mortal and Monster!",
+        "image_url": "https://res.cloudinary.com/lesley-z/image/upload/w_200/e_opacity_threshold:25,l_v1660364265:Projects:mm_cwe4ro.png/v1659346388/Projects/medusa.gif",
+        "filename": "medusa.gif",
+        "hash": "QmR2Kzc3gtydoNZQJ5mEo1XazN1KkATYMUYaEdQVpwzNRw"
+    },
+    {
+        "id": 2,
+        "name": "Fighting Satyr Gif",
+        "price": "0.03",
+        "image_url": "https://res.cloudinary.com/lesley-z/image/upload/w_110/e_opacity_threshold:25,l_v1660364265:Projects:mm_cwe4ro.png/v1660001618/Projects/satyr.gif",
+        "description": "No Pan pipes for this streetfighting satyr.",
+        "filename": "satyr.gif",
+        "hash": "QmXRXzhCVvHTfFjigBfCkBhU18NH4fsu8nbBVzFgHWwJeJ"
+    },
+    {
+        "id": 3,
+        "name": "Harpy Gif",
+        "price": "0.03",
+        "image_url": "https://res.cloudinary.com/lesley-z/image/upload/w_200/e_opacity_threshold:25,l_v1660364265:Projects:mm_cwe4ro.png/v1660031407/Projects/harpy.gif",
+        "description": "If you buy her, she will harp on you forever...well until you sell her to someone else....pretty bird... ",
+        "filename": "harpy3.gif",
+        "hash": "QmfTEut2dSUSn1qP9eXs5A7edvMDTvT7NdZAGXLdVAMXZA"
+    }
+]
