@@ -16,14 +16,14 @@ export default function HeadComponent() {
       <meta property="og:url" content="https://mythic-market-solana-pay.vercel.app" />
       <meta property="og:title" content="Mythic Market" />
       <meta property="og:description" content="Get mythical merchandise using Solana Pay!" />
-      <meta property="og:image" content="/public/demo.jpg" />
+      <meta property="og:image" content="https://res.cloudinary.com/lesley-z/image/upload/v1660435130/Projects/social-preview_sxy9wq.jpg" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://mythic-market-solana-pay.vercel.app" />
       <meta property="twitter:title" content="Mythic Market" />
       <meta property="twitter:description" content="Get mythical merchandise using Solana Pay!" />
-      <meta property="twitter:image" content="/public/demo.jpg" />
+      <meta property="twitter:image" content="https://res.cloudinary.com/lesley-z/image/upload/v1660435130/Projects/social-preview_sxy9wq.jpg" />
     </Head>
   );
 }
