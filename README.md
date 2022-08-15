@@ -3,6 +3,7 @@
 
 <h1 align="center">on Solana Pay</h1>
 <p align="center">I made this store by completeing the buildspace solana pay starter project. Check it out <a href="https://mythic-market-solana-pay.vercel.app"><b>here!</b></a></p>
+<p align="center"><a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="badge"/></a></p>
 </div>
 
 <hr> 
@@ -46,7 +47,11 @@ Have some questions make sure you head over to your [buildspace Dashboard](https
 </div>
 
 ### License
-Apache 2.0
+MIT
+
+### Acknowledgements
+- [Buildspace](https://buildspace.so)
+- [TechStack](techstack-logos.web.app)
 
 ### Author
 <div align="center">
